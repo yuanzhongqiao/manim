@@ -1,117 +1,162 @@
-<p align="center">
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p align="center" dir="auto">
     <a href="https://github.com/3b1b/manim">
-        <img src="https://raw.githubusercontent.com/3b1b/manim/master/logo/cropped.png">
+        <img src="https://raw.githubusercontent.com/3b1b/manim/master/logo/cropped.png" style="max-width: 100%;">
     </a>
 </p>
+<p dir="auto"><a href="https://pypi.org/project/manimgl/" rel="nofollow"><img src="https://camo.githubusercontent.com/e733dec0541e5713e05bed2b11223d7d359c16994fc625ebaf541bcf0250a025/68747470733a2f2f696d672e736869656c64732e696f2f707970692f762f6d616e696d676c3f6c6f676f3d70797069" alt="pypi版本" data-canonical-src="https://img.shields.io/pypi/v/manimgl?logo=pypi" style="max-width: 100%;"></a>
+<a href="http://choosealicense.com/licenses/mit/" rel="nofollow"><img src="https://camo.githubusercontent.com/0e22ab646ad5e4c332e4dc554ab4d73bea325370dc543c297da85fde11a7e11e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d49542d626c75652e7376673f7374796c653d666c6174" alt="我的许可证" data-canonical-src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat" style="max-width: 100%;"></a>
+<a href="https://www.reddit.com/r/manim/" rel="nofollow"><img src="https://camo.githubusercontent.com/bfef00a79babfc30205d4a00ecd2128edc398583446ee5a532ab992dd16dc678/68747470733a2f2f696d672e736869656c64732e696f2f7265646469742f7375627265646469742d73756273637269626572732f6d616e696d2e7376673f636f6c6f723d666634333031266c6162656c3d726564646974266c6f676f3d726564646974" alt="马尼姆 Reddit 子版块" data-canonical-src="https://img.shields.io/reddit/subreddit-subscribers/manim.svg?color=ff4301&amp;label=reddit&amp;logo=reddit" style="max-width: 100%;"></a>
+<a href="https://discord.com/invite/bYCyhM9Kz2" rel="nofollow"><img src="https://camo.githubusercontent.com/2f1461e4d755e34482175d7dc114288f11cb772e3b73d56f360f7229eb73ae7e/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3538313733383733313933343035363434392e7376673f6c6162656c3d646973636f7264266c6f676f3d646973636f7264" alt="马尼姆不和谐" data-canonical-src="https://img.shields.io/discord/581738731934056449.svg?label=discord&amp;logo=discord" style="max-width: 100%;"></a>
+<a href="https://3b1b.github.io/manim/" rel="nofollow"><img src="https://github.com/3b1b/manim/workflows/docs/badge.svg" alt="文档" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Manim 是一个用于精确编程动画的引擎，专为创建解释性数学视频而设计。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，manim 有两个版本。该存储库最初是</font></font><a href="https://www.3blue1brown.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3Blue1Brown</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作者的个人项目，</font><font style="vertical-align: inherit;">旨在为这些视频制作动画，视频特定的代码可</font></font><a href="https://github.com/3b1b/videos"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取。 2020 年，一群开发人员将其分叉为现在的</font></font><a href="https://github.com/ManimCommunity/manim/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社区版本</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，目标是更稳定、更好的测试、更快地响应社区贡献以及更容易上手。请参阅</font></font><a href="https://docs.manim.community/en/stable/faq/installation.html#different-versions" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解更多详细信息。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font></h2><a id="user-content-installation" class="anchor" aria-label="永久链接：安装" href="#installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<blockquote>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">警告：这些说明</font></font></strong><font style="vertical-align: inherit;"></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">适用于 ManimGL </font><font style="vertical-align: inherit;">。尝试使用这些说明来安装</font></font><a href="https://github.com/ManimCommunity/manim"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ManimCommunity/manim</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或那里的说明来安装此版本将导致问题。您应该首先决定要安装哪个版本，然后仅按照您所需版本的说明进行操作。</font></font></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：如果直接通过pip安装manim，请注意安装包的名称。这个存储库是 3b1b 的 ManimGL。包名称</font></font><code>manimgl</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代替</font></font><code>manim</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><code>manimlib</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。请使用</font></font><code>pip install manimgl</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此存储库安装版本。</font></font></p>
+</blockquote>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Manim 在 Python 3.7 或更高版本上运行。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">系统要求是</font></font><a href="https://ffmpeg.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FFmpeg</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://www.opengl.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenGL</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://www.latex-project.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LaTeX</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（可选，如果您想使用 LaTeX）。对于 Linux，需要</font></font><a href="https://pango.gnome.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pango</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">及其开发头文件。请参阅</font></font><a href="https://github.com/ManimCommunity/ManimPango#building"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此处的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">说明</font><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">直接地</font></font></h3><a id="user-content-directly" class="anchor" aria-label="固定链接：直接" href="#directly"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c"><span class="pl-c">#</span> Install manimgl</span>
+pip install manimgl
 
-[![pypi version](https://img.shields.io/pypi/v/manimgl?logo=pypi)](https://pypi.org/project/manimgl/)
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
-[![Manim Subreddit](https://img.shields.io/reddit/subreddit-subscribers/manim.svg?color=ff4301&label=reddit&logo=reddit)](https://www.reddit.com/r/manim/)
-[![Manim Discord](https://img.shields.io/discord/581738731934056449.svg?label=discord&logo=discord)](https://discord.com/invite/bYCyhM9Kz2)
-[![docs](https://github.com/3b1b/manim/workflows/docs/badge.svg)](https://3b1b.github.io/manim/)
-
-Manim is an engine for precise programmatic animations, designed for creating explanatory math videos.
-
-Note, there are two versions of manim.  This repository began as a personal project by the author of [3Blue1Brown](https://www.3blue1brown.com/) for the purpose of animating those videos, with video-specific code available [here](https://github.com/3b1b/videos).  In 2020 a group of developers forked it into what is now the [community edition](https://github.com/ManimCommunity/manim/), with a goal of being more stable, better tested, quicker to respond to community contributions, and all around friendlier to get started with. See [this page](https://docs.manim.community/en/stable/faq/installation.html#different-versions) for more details.
-
-## Installation
-> **WARNING:** These instructions are for ManimGL _only_. Trying to use these instructions to install [ManimCommunity/manim](https://github.com/ManimCommunity/manim) or instructions there to install this version will cause problems. You should first decide which version you wish to install, then only follow the instructions for your desired version.
-> 
-> **Note**: To install manim directly through pip, please pay attention to the name of the installed package. This repository is ManimGL of 3b1b. The package name is `manimgl` instead of `manim` or `manimlib`. Please use `pip install manimgl` to install the version in this repository.
-
-Manim runs on Python 3.7 or higher.
-
-System requirements are [FFmpeg](https://ffmpeg.org/), [OpenGL](https://www.opengl.org/) and [LaTeX](https://www.latex-project.org) (optional, if you want to use LaTeX).
-For Linux, [Pango](https://pango.gnome.org) along with its development headers are required. See instruction [here](https://github.com/ManimCommunity/ManimPango#building).
-
-
-### Directly
-
-```sh
-# Install manimgl
+<span class="pl-c"><span class="pl-c">#</span> Try it out</span>
+manimgl</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="# Install manimgl
 pip install manimgl
 
 # Try it out
-manimgl
-```
+manimgl" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关更多选项，请查看</font><font style="vertical-align: inherit;">下面的</font></font><a href="#using-manim"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 manim部分。</font></font></a><font style="vertical-align: inherit;"></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想破解 manimlib 本身，请克隆此存储库并在该目录中执行：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c"><span class="pl-c">#</span> Install manimgl</span>
+pip install -e <span class="pl-c1">.</span>
 
-For more options, take a look at the [Using manim](#using-manim) sections further below.
-
-If you want to hack on manimlib itself, clone this repository and in that directory execute:
-
-```sh
-# Install manimgl
+<span class="pl-c"><span class="pl-c">#</span> Try it out</span>
+manimgl example_scenes.py OpeningManimExample
+<span class="pl-c"><span class="pl-c">#</span> or</span>
+manim-render example_scenes.py OpeningManimExample</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="# Install manimgl
 pip install -e .
 
 # Try it out
 manimgl example_scenes.py OpeningManimExample
 # or
-manim-render example_scenes.py OpeningManimExample
-```
-
-### Directly (Windows)
-
-1. [Install FFmpeg](https://www.wikihow.com/Install-FFmpeg-on-Windows).
-2. Install a LaTeX distribution. [MiKTeX](https://miktex.org/download) is recommended.
-3. Install the remaining Python packages.
-    ```sh
-    git clone https://github.com/3b1b/manim.git
-    cd manim
-    pip install -e .
-    manimgl example_scenes.py OpeningManimExample
-    ```
-
-### Mac OSX
-
-1. Install FFmpeg, LaTeX in terminal using homebrew.
-    ```sh
-    brew install ffmpeg mactex
-    ```
-   
-2. Install latest version of manim using these command.
-    ```sh
-    git clone https://github.com/3b1b/manim.git
-    cd manim
-    pip install -e .
-    manimgl example_scenes.py OpeningManimExample
-    ```
-
-## Anaconda Install
-
-1. Install LaTeX as above.
-2. Create a conda environment using `conda create -n manim python=3.8`.
-3. Activate the environment using `conda activate manim`.
-4. Install manimgl using `pip install -e .`.
-
-
-## Using manim
-Try running the following:
-```sh
-manimgl example_scenes.py OpeningManimExample
-```
-This should pop up a window playing a simple scene.
-
-Some useful flags include:
-* `-w` to write the scene to a file
-* `-o` to write the scene to a file and open the result
-* `-s` to skip to the end and just show the final frame.
-    * `-so` will save the final frame to an image and show it
-* `-n <number>` to skip ahead to the `n`'th animation of a scene.
-* `-f` to make the playback window fullscreen
-
-Take a look at custom_config.yml for further configuration.  To add your customization, you can either edit this file, or add another file by the same name "custom_config.yml" to whatever directory you are running manim from.  For example [this is the one](https://github.com/3b1b/videos/blob/master/custom_config.yml) for 3blue1brown videos.  There you can specify where videos should be output to, where manim should look for image files and sounds you want to read in, and other defaults regarding style and video quality.
-
-Look through the [example scenes](https://3b1b.github.io/manim/getting_started/example_scenes.html) to get a sense of how it is used, and feel free to look through the code behind [3blue1brown videos](https://github.com/3b1b/videos) for a much larger set of example. Note, however, that developments are often made to the library without considering backwards compatibility with those old videos. To run an old project with a guarantee that it will work, you will have to go back to the commit which completed that project.
-
-### Documentation
-Documentation is in progress at [3b1b.github.io/manim](https://3b1b.github.io/manim/). And there is also a Chinese version maintained by [**@manim-kindergarten**](https://manim.org.cn): [docs.manim.org.cn](https://docs.manim.org.cn/) (in Chinese).
-
-[manim-kindergarten](https://github.com/manim-kindergarten/) wrote and collected some useful extra classes and some codes of videos in [manim_sandbox repo](https://github.com/manim-kindergarten/manim_sandbox).
-
-
-## Contributing
-Is always welcome.  As mentioned above, the [community edition](https://github.com/ManimCommunity/manim) has the most active ecosystem for contributions, with testing and continuous integration, but pull requests are welcome here too.  Please explain the motivation for a given change and examples of its effect.
-
-
-## License
-This project falls under the MIT license.
+manim-render example_scenes.py OpeningManimExample" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">直接（Windows）</font></font></h3><a id="user-content-directly-windows" class="anchor" aria-label="永久链接：直接（Windows）" href="#directly-windows"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li><a href="https://www.wikihow.com/Install-FFmpeg-on-Windows" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装 FFmpeg</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装 LaTeX 发行版。</font><font style="vertical-align: inherit;">推荐</font></font><a href="https://miktex.org/download" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MiKTeX 。</font></font></a><font style="vertical-align: inherit;"></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装剩余的 Python 包。
+</font></font><div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>git clone https://github.com/3b1b/manim.git
+<span class="pl-c1">cd</span> manim
+pip install -e <span class="pl-c1">.</span>
+manimgl example_scenes.py OpeningManimExample</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="git clone https://github.com/3b1b/manim.git
+cd manim
+pip install -e .
+manimgl example_scenes.py OpeningManimExample" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+</li>
+</ol>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">苹果电脑</font></font></h3><a id="user-content-mac-osx" class="anchor" aria-label="永久链接：Mac OSX" href="#mac-osx"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用自制程序在终端中安装 FFmpeg、LaTeX。</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>brew install ffmpeg mactex</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="brew install ffmpeg mactex" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+</li>
+<li>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用这些命令安装最新版本的 manim。</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>git clone https://github.com/3b1b/manim.git
+<span class="pl-c1">cd</span> manim
+pip install -e <span class="pl-c1">.</span>
+manimgl example_scenes.py OpeningManimExample</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="git clone https://github.com/3b1b/manim.git
+cd manim
+pip install -e .
+manimgl example_scenes.py OpeningManimExample" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+</li>
+</ol>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">蟒蛇安装</font></font></h2><a id="user-content-anaconda-install" class="anchor" aria-label="永久链接：Anaconda 安装" href="#anaconda-install"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">按照上面的方法安装 LaTeX。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用创建 conda 环境</font></font><code>conda create -n manim python=3.8</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 激活环境</font></font><code>conda activate manim</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用安装 manimgl </font></font><code>pip install -e .</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+</ol>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用马尼姆</font></font></h2><a id="user-content-using-manim" class="anchor" aria-label="永久链接：使用 manim" href="#using-manim"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试运行以下命令：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>manimgl example_scenes.py OpeningManimExample</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="manimgl example_scenes.py OpeningManimExample" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这应该会弹出一个窗口，播放一个简单的场景。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一些有用的标志包括：</font></font></p>
+<ul dir="auto">
+<li><code>-w</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将场景写入文件</font></font></li>
+<li><code>-o</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将场景写入文件并打开结果</font></font></li>
+<li><code>-s</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">跳到最后并只显示最后一帧。
+</font></font><ul dir="auto">
+<li><code>-so</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将最终帧保存到图像中并显示它</font></font></li>
+</ul>
+</li>
+<li><code>-n &lt;number&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">向前跳至</font></font><code>n</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">场景的第一个动画。</font></font></li>
+<li><code>-f</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使播放窗口全屏显示</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看 custom_config.yml 以进行进一步配置。要添加自定义，您可以编辑此文件，或将另一个同名“custom_config.yml”的文件添加到您运行 manim 的任何目录中。例如，</font></font><a href="https://github.com/3b1b/videos/blob/master/custom_config.yml"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是 3blue1brown 视频的视频</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。您可以在其中指定视频应输出到的位置、manim 应在何处查找要读入的图像文件和声音，以及有关样式和视频质量的其他默认值。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看</font></font><a href="https://3b1b.github.io/manim/getting_started/example_scenes.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例场景</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以了解它的使用方式，并随意查看</font></font><a href="https://github.com/3b1b/videos"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3blue1brown 视频</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">背后的代码以获取更大的示例集。但请注意，对库的开发通常没有考虑与那些旧视频的向后兼容性。要运行旧项目并保证它能够正常工作，您必须返回到完成该项目的提交。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></h3><a id="user-content-documentation" class="anchor" aria-label="永久链接：文档" href="#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://3b1b.github.io/manim/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档正在3b1b.github.io/manim</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上进行</font><font style="vertical-align: inherit;">。还有一个由</font></font><a href="https://manim.org.cn" rel="nofollow"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@manim-kindergarten</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">维护的中文版本：</font></font><a href="https://docs.manim.org.cn/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">docs.manim.org.cn</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（中文）。</font></font></p>
+<p dir="auto"><a href="https://github.com/manim-kindergarten/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">manim-kindergarten在</font></font></a><font style="vertical-align: inherit;"></font><a href="https://github.com/manim-kindergarten/manim_sandbox"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">manim_sandbox repo</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中编写并收集了一些有用的额外课程和一些视频代码</font><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></h2><a id="user-content-contributing" class="anchor" aria-label="永久链接：贡献" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">总是受到欢迎。如上所述，</font></font><a href="https://github.com/ManimCommunity/manim"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社区版</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">拥有最活跃的贡献生态系统，具有测试和持续集成，但这里也欢迎拉取请求。请解释特定更改的动机及其效果的示例。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2><a id="user-content-license" class="anchor" aria-label="永久链接：许可证" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该项目受麻省理工学院许可。</font></font></p>
+</article></div>
